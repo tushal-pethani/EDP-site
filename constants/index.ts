@@ -18,34 +18,35 @@ export const NAV_LINKS = [
   // FEATURES SECTION
   export const FEATURES = [
     {
-      title: 'Real maps can be offline',
-      icon: '/map.svg',
+      title: 'Track Your Motion in Real Time',
+      icon: '/map.svg', // Retaining original map icon
       variant: 'green',
       description:
-        'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+        'Our smart band accurately tracks your joint movements, angles, and exercise progress, ensuring effective physiotherapy sessions.',
     },
     {
-      title: 'Set an adventure schedule',
-      icon: '/calendar.svg',
+      title: 'Personalized Exercise Guidance',
+      icon: '/calendar.svg', // Retaining original calendar icon
       variant: 'green',
       description:
-        "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+        'Get tailored physiotherapy exercises designed for your recovery needs. Follow guided routines to improve mobility and strength.',
     },
     {
-      title: 'Technology using augment reality',
-      icon: '/tech.svg',
+      title: 'Seamless App Integration',
+      icon: '/tech.svg', // Retaining original tech icon
       variant: 'green',
       description:
-        'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+        'Connect the device to our mobile and web app to monitor your progress, track repetitions, and receive real-time feedback.',
     },
     {
-      title: 'Many new locations every month',
-      icon: '/location.svg',
+      title: 'Affordable & Easy to Use',
+      icon: '/location.svg', // Retaining original location icon
       variant: 'orange',
       description:
-        'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+        'Designed to be budget-friendly and user-friendly, our motion-tracking band makes physiotherapy accessible to everyone.',
     },
   ];
+  
   
   // FOOTER SECTION
   export const FOOTER_LINKS = [
