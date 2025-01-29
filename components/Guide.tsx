@@ -14,18 +14,14 @@ const Guide = () => {
             Guide You to Easy Path
           </h2>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">
-            Only with the hilink application you will no longer get lost and get
-            lost again, because we already support offline maps when there is no
-            internet connection in the field. Invite your friends, relatives and
-            friends to have fun in the wilderness through the valley and reach
-            the top of the mountain
+          With our smart motion-tracking band and app, you can seamlessly follow guided physiotherapy exercises, track your progress in real time, and achieve better recovery—all from the comfort of your home.
           </p>
         </div>
       </div>
 
       <div className="flexCenter max-container relative w-full">
         <Image
-          src="/boat.png"
+          src="/bobo2.webp"
           alt="boat"
           width={1440}
           height={580}
@@ -44,7 +40,7 @@ const Guide = () => {
             <div className="flex w-full flex-col">
               <div className="flexBetween w-full">
                 <p className="regular-16 text-gray-20">Destination</p>
-                <p className="bold-16 text-green-50">48 min</p>
+                <p className="bold-16 text-green-50">15 min</p>
               </div>
               <p className="bold-20 mt-2">Aguas Calientes</p>
             </div>

@@ -16,8 +16,7 @@ const Hero = () => {
         />
         <h1 className="bold-52 lg:bold-88">Exercise Aid</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          Your ultimate fitness companion designed to help you achieve your
-          health goals with personalized workout plans and guidance.
+        Your ultimate physiotherapy companion, designed to guide you through personalized recovery exercises and track your progress effortlessly.
         </p>
         <div className="my-11 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
@@ -34,14 +33,14 @@ const Hero = () => {
               ))}
           </div>
           <p className="bold-16 lg:bold-20 text-blue-70">
-            198k
+            126
             <span className="regular-16 lg:regular-20 ml-1 ">
               Excellent reviews
             </span>
           </p>
         </div>
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="Download App" variant="btn_green" />
+          <Button type="button" title="Get Brochure" variant="btn_green" />
           <Button type="button" title="How we work?" variant="btn_white_text" />
         </div>
       </div>
