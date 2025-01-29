@@ -14,11 +14,10 @@ const Hero = () => {
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
-        <h1 className="bold-52 lg:bold-88">Putuk Truno Camp Area</h1>
+        <h1 className="bold-52 lg:bold-88">Exercise Aid</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          We want to be on each of your journeys seeking the satisfaction of
-          seeing the incorruptible beauty of nature. We can help you on an
-          adventure around the world in just one app
+          Your ultimate fitness companion designed to help you achieve your
+          health goals with personalized workout plans and guidance.
         </p>
         <div className="my-11 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
@@ -51,19 +50,19 @@ const Hero = () => {
         <div className="relative z-20 w-[268px] flex flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
           <div className="flex flex-col">
             <div className="flexBetween">
-              <p className="regular-16 text-gray-20">Location</p>
-              <Image src="/close.svg" alt="" width={24} height={24} />
+              <p className="regular-16 text-gray-20">Exercise Type</p>
+              <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
-            <p className="bold-20 text-white">Aguas Calientes</p>
+            <p className="bold-20 text-white">Rehabilitation Therapy</p>
           </div>
           <div className="flexBetween">
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Distance</p>
-              <p className="bold-20 text-white">173.28 km</p>
+              <p className="regular-16 block text-gray-20">Duration</p>
+              <p className="bold-20 text-white">30 mins</p>
             </div>
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Elevation</p>
-              <p className="bold-20 text-white">2 km</p>
+              <p className="regular-16 block text-gray-20">Intensity</p>
+              <p className="bold-20 text-white">Moderate</p>
             </div>
           </div>
         </div>

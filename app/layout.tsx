@@ -6,8 +6,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Traveller",
-  description: "App for Campers",
+  title: "Exercise Aid",
+  description: "App for Exercise",
 };
 
 export default function RootLayout({
