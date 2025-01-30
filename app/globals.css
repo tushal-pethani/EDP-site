@@ -127,8 +127,24 @@ body {
   /* Hero */
   .hero-map {
     @apply absolute right-0 top-10 h-[60vh] w-[50vw] bg-pattern-2 bg-cover bg-center md:-right-2;
+    z-index: -1; /* Ensures it stays behind the content */
   }
 
+  @media (max-width: 768px) {
+    .hero-map {
+      transform: scaleX(-1); /* Flip on mobile */
+      width: 100vw; /* Ensure full coverage */
+      height: 100vh; /* Extend height */
+      top: 0; /* Align to the top */
+    }
+  }
+
+  /* Ensure section is transparent */
+  .hero {
+    background: transparent !important; /* Force transparency */
+    position: relative;
+    z-index: 10; /* Ensures it stays above .hero-map */
+  }
   /* Camp */
   .camp-quote {
     @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;
