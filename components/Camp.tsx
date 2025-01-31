@@ -16,7 +16,7 @@ const CampSite = ({
 }: CampProps) => {
   return (
     <div
-      className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}
+      className={`h-full w-full ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}
     >
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">
@@ -73,7 +73,8 @@ const Camp = () => {
             <strong>Uncertain</strong> about your recovery progress?
           </h2>
           <p className="regular-14 xl:regular-16 mt-5 text-white">
-          Our smart motion-tracking band and app guide you through every step, ensuring accurate exercises and a smoother rehabilitation journey.
+            Our smart motion-tracking band and app guide you through every step,
+            ensuring accurate exercises and a smoother rehabilitation journey.
           </p>
           <Image
             src="/quote.svg"

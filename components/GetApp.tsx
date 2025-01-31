@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import Image from "next/image";
+import Link from "next/link";
 
 const GetApp = () => {
   return (
@@ -13,19 +14,24 @@ const GetApp = () => {
           <p className="regular-16 text-gray-10">
             Available on iOS and Android
           </p>
-          <div className="flex flex-col gap-3 whitespace-nowrap xl:flex-row">
+          <Link
+            href={
+              "https://drive.google.com/file/d/1cxtUzc9AAijZncyKwBgJems98tHoA3Q4/view"
+            }
+            className="flex flex-col gap-3 whitespace-nowrap xl:flex-row"
+            target="_blank"
+          >
             <Button
               type="button"
               title="Get brochure"
-              icon="/apple.svg"
               variant="btn_white"
               full
             />
-          </div>
+          </Link>
         </div>
 
         <div className="flex flex-1 items-center justify-end">
-          <Image src="/coverimg.jpg" alt="phones" width={550} height={870} />
+          <Image src="/phone-2.png" alt="phones" width={500} height={791} />
         </div>
       </div>
     </section>

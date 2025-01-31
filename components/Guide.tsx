@@ -11,21 +11,23 @@ const Guide = () => {
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
-            Guide You to Easy Path
+            Personalised for you
           </h2>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">
-          With our smart motion-tracking band and app, you can seamlessly follow guided physiotherapy exercises, track your progress in real time, and achieve better recovery—all from the comfort of your home.
+            With our smart motion-tracking band and app, you can seamlessly
+            follow guided physiotherapy exercises, track your progress in real
+            time, and achieve better recovery—all from the comfort of your home.
           </p>
         </div>
       </div>
 
       <div className="flexCenter max-container relative w-full">
         <Image
-          src="/bobo2.webp"
+          src="/bobo2.png"
           alt="boat"
-          width={1440}
-          height={580}
-          className="w-full object-cover object-center 2xl:rounded-5xl"
+          width={1100}
+          height={640}
+          className="w-full object-fill object-center 2xl:rounded-5xl"
         />
 
         <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
@@ -39,17 +41,18 @@ const Guide = () => {
           <div className="flexBetween flex-col">
             <div className="flex w-full flex-col">
               <div className="flexBetween w-full">
-                <p className="regular-16 text-gray-20">Destination</p>
-                <p className="bold-16 text-green-50">15 min</p>
+                <p className="regular-16 text-gray-20">Current</p>
+                <p className="bold-16 text-green-50">15 reps</p>
               </div>
-              <p className="bold-20 mt-2">Aguas Calientes</p>
+              <div>
+                <p className="bold-20 mt-2">Lateral Leg</p>
+                <p className="bold-20 ">Raises</p>
+              </div>
             </div>
 
-            <div className="flex w-full flex-col">
-              <p className="regular-16 text-gray-20">Start track</p>
-              <h4 className="bold-20 mt-2 whitespace-nowrap">
-                Wonorejo Pasuruan
-              </h4>
+            <div className="flex w-full flex-col mt-5">
+              <p className="regular-16 text-gray-20">Next</p>
+              <h4 className="bold-20 mt-2 whitespace-nowrap">Plank (1min) </h4>
             </div>
           </div>
         </div>

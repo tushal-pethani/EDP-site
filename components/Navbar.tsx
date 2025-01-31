@@ -23,12 +23,15 @@ const Navbar = () => {
       </ul>
 
       <div className="hidden lg:flexCenter">
-        <Button
-          type="button"
-          title="Log In"
-          icon="/user.svg"
-          variant="btn_dark_green"
-        />
+        <Link
+          href={
+            "https://drive.google.com/file/d/1cxtUzc9AAijZncyKwBgJems98tHoA3Q4/view"
+          }
+          className="flex flex-col gap-3 whitespace-nowrap xl:flex-row"
+          target="_blank"
+        >
+          <Button type="button" title="Get Brochure" variant="btn_dark_green" />
+        </Link>
       </div>
       <Image
         src="/menu.svg"

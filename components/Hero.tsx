@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Button from "./Button";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -16,7 +17,8 @@ const Hero = () => {
         />
         <h1 className="bold-52 lg:bold-88">Exercise Aid</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-        Your ultimate physiotherapy companion, designed to guide you through personalized recovery exercises and track your progress effortlessly.
+          Your ultimate physiotherapy companion, designed to guide you through
+          personalized recovery exercises and track your progress effortlessly.
         </p>
         <div className="my-11 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
@@ -40,8 +42,25 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="Get Brochure" variant="btn_green" />
-          <Button type="button" title="How we work?" variant="btn_white_text" />
+          <Link
+            href={
+              "https://drive.google.com/file/d/1cxtUzc9AAijZncyKwBgJems98tHoA3Q4/view"
+            }
+            className="flex flex-col gap-3 whitespace-nowrap xl:flex-row"
+            target="_blank"
+          >
+            <Button type="button" title="Get Brochure" variant="btn_green" />
+          </Link>
+
+          <Link
+            href={
+              "https://drive.google.com/file/d/1kGsr7h6v3QOMslzzaiFpj3hznf4JgsU4/view"
+            }
+            className="flex flex-col gap-3 whitespace-nowrap xl:flex-row"
+            target="_blank"
+          >
+            <Button type="button" title="Get report" variant="btn_white_text" />
+          </Link>
         </div>
       </div>
 

@@ -30,7 +30,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        "bg-img-1": "url('/bobo.jpg')",
+        "bg-img-1": "url('/bobo.webp')",
         "bg-img-2": "url('/bobo2.jpeg')",
         "feature-bg": "url('/feature-bg.png')",
         pattern: "url('/pattern.png')",
